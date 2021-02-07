@@ -18,9 +18,9 @@
     "RedisApp2": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
-      "launchBrowser": false,
+      "launchBrowser": true,
       "applicationUrl": "https://localhost:5001",
-      "launchUrl": "login",
+      "launchUrl": "register",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
