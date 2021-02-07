@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+    <style>
+        #welcome{
+            text-align:center;
+        }
+        #myForm{
+            text-align:right;
+        }
+        #logout {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            margin-left:10px;
+            margin-bottom: 10px;
+            border: none;
+            cursor: pointer;
+            width: 15%%;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div id="myForm">
+        <form action="/logout" method="post">
+            <button type="submit" id="logout">
+                Logout
+            </button>
+        </form>
+    </div>
+
+        <div id="welcome">
+            Welcome @ViewBag.username
+        </div>
+   
+</body>
+</html>
